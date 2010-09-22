@@ -5,7 +5,7 @@ Bundler.setup
 def gemspec
   @gemspec ||= begin
     gemspec_file = File.expand_path('../predicated.gemspec', __FILE__)
-    gemspec = eval(File.read(gemspec_file), binding, gemspec_file)
+    eval(File.read(gemspec_file), binding, gemspec_file)
   end
 end
 
