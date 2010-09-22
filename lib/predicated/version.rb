@@ -1,3 +1,3 @@
 module Predicated
-  VERSION = "0.2.0" unless defined?(Predicated::VERSION)
+  VERSION = "0.2.1" unless defined?(Predicated::VERSION)
 end
